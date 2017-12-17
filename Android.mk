@@ -3,7 +3,6 @@ ifeq ($(AB_OTA_UPDATER),true)
 LOCAL_PATH := $(call my-dir)
 
 # HAL Shared library for the target. Used by libhardware.
-LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_C_INCLUDES += hardware/libhardware/include
 LOCAL_C_INCLUDES += $(TARGET_OUT_HEADERS)/gpt-utils/inc
